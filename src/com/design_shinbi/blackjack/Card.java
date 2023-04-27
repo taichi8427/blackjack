@@ -29,10 +29,22 @@ public class Card {
 	public Suit getSuit() {
 		return suit;
 	}
+	
+	/**
+	 * カードの数字を取得する。
+	 * @return　カードの数字
+	 */
 
 	public int getNumber() {
 		return number;
 	}
+	
+	/**
+	 *　数字情報の文字列を取得する。
+	 * 　(例: 1 -> A, 2 -> 2, 3 -> 3, ... , 12 -> Q, 13 -> K)
+	 * @param number　数字
+	 * @return　数字の文字列
+	 */
 	
 	public static String getNumberString(int number) {
 		String string = null;
